@@ -93,10 +93,10 @@ h3 {
   padding: 70px 0px 50px 80px;
   background-image: url(images/shapes/shape-1.png);
   background-repeat: no-repeat;
-  background-size: 20%;
+  background-size: 10%;
   background-position: right;
-  background-position-x: 1500px;
-  background-position-y: 400px;
+  background-position-x: 1600px;
+  background-position-y: 10px;
 }
 .width-small {
   width: 45%;
@@ -111,4 +111,22 @@ h3 {
 }
 .width-large h2 {
   line-height: 20px;
+}
+.self {
+  padding-bottom: 200px;
+  background-image: url(images/shapes/shape-7.png);
+  background-repeat: no-repeat;
+  background-size: 450px;
+  background-position: right;
+  background-position-x: 155px;
+  background-position-y: 60px;
+}
+.self .half-width img {
+  border-radius: 40px;
+}
+.self .half-width h1 {
+  margin-left: 0px;
+}
+.aboutme {
+  width: 30%;
 }
