@@ -1,8 +1,20 @@
+/* BASE */
+
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
   color: #3e3e3e;
+}
+h1 {
+  font-size: 50px;
+  line-height: 30px;
+}
+h2 {
+  font-size: 35px;
+}
+h3 {
+  font-size: 30px;
 }
 .flex-container {
   display: flex;
@@ -28,16 +40,7 @@ body {
   border-radius: 3px;
   border-image-slice: 1;
 }
-h1 {
-  font-size: 50px;
-  line-height: 30px;
-}
-h2 {
-  font-size: 35px;
-}
-h3 {
-  font-size: 30px;
-}
+
 .orange-color {
   color: #ffad5a;
 }
@@ -54,6 +57,9 @@ h3 {
   margin-top: 5px;
   position: absolute;
 }
+
+/* CARDS SECTION */
+
 .headline {
   text-align: center;
 }
@@ -81,6 +87,22 @@ h3 {
   padding: 20px 20px;
   margin-left: 25px;
 }
+/* MODULE 4 */
+.width-small {
+  width: 45%;
+}
+.width-small img {
+  width: 65%;
+  padding-left: 150px;
+}
+.width-large {
+  width: 50%;
+  padding-top: 20px;
+}
+.width-large h2 {
+  line-height: 20px;
+}
+
 .devsec {
   padding: 70px 0px 20px 0px;
   background-image: url(images/shapes/shape-1.png);
@@ -98,20 +120,9 @@ h3 {
   background-position-x: 1600px;
   background-position-y: 10px;
 }
-.width-small {
-  width: 45%;
-}
-.width-small img {
-  width: 65%;
-  padding-left: 150px;
-}
-.width-large {
-  width: 50%;
-  padding-top: 20px;
-}
-.width-large h2 {
-  line-height: 20px;
-}
+
+/* HOMEWORK */
+
 .self {
   padding-bottom: 200px;
   background-image: url(images/shapes/shape-7.png);
@@ -129,4 +140,28 @@ h3 {
 }
 .aboutme {
   width: 30%;
+}
+.about-color {
+  color: cornflowerblue;
+}
+
+/* FOOTER  */
+
+.footer {
+  width: 100%;
+  background-color: #0b0d17;
+  color: white;
+  text-align: center;
+  line-height: 30px;
+  padding: 20px 0px;
+  letter-spacing: 2px;
+}
+.footer h3 {
+  font-family: "Lobster", cursive;
+}
+.footer p {
+  font-size: 10px;
+}
+#footer-color {
+  color: #ff5959;
 }
