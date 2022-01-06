@@ -160,8 +160,11 @@ h3 {
   font-family: "Lobster", cursive;
 }
 .footer p {
-  font-size: 10px;
+  font-size: 14px;
 }
 #footer-color {
   color: #ff5959;
+}
+.lime {
+  color: lime;
 }
