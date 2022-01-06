@@ -54,3 +54,30 @@ h3 {
   margin-top: 5px;
   position: absolute;
 }
+.headline {
+  text-align: center;
+}
+.my-mission .card {
+  padding: 0px 150px;
+  border-radius: 10px;
+}
+.my-mission .card img {
+  width: 30%;
+}
+#mission {
+  background-color: #edf5f6;
+  border-radius: 30px;
+  padding: 20px 20px;
+}
+#vision {
+  background-color: rgba(255, 192, 203, 0.2);
+  border-radius: 30px;
+  padding: 20px 20px;
+  margin-left: 25px;
+}
+#goals {
+  background-color: hsla(60, 100%, 50%, 0.2);
+  border-radius: 30px;
+  padding: 20px 20px;
+  margin-left: 25px;
+}
